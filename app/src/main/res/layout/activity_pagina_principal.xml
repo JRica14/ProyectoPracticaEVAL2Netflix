@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4C4C4C"
+    android:background="#333333"
     tools:context=".PaginaPrincipal">
 
     <LinearLayout
@@ -99,12 +99,13 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="407dp"
         android:layout_height="579dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="3dp"
-        android:layout_marginBottom="1dp"
+        android:layout_marginBottom="80dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,7 +114,8 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="548dp"
+            android:paddingTop="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -124,7 +126,7 @@
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Series Tv"
+                    android:text="  Series Tv"
                     android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -141,31 +143,39 @@
 
                         <ImageView
                             android:id="@+id/imageView11"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/space"
+                            tools:srcCompat="@drawable/space" />
 
                         <ImageView
                             android:id="@+id/imageView12"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/himym"
+                            tools:srcCompat="@drawable/himym" />
 
                         <ImageView
                             android:id="@+id/imageView13"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="99dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/lucifer"
+                            tools:srcCompat="@drawable/lucifer" />
 
                         <ImageView
                             android:id="@+id/imageView14"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/miercoles"
+                            tools:srcCompat="@drawable/miercoles" />
                     </LinearLayout>
                 </HorizontalScrollView>
 
@@ -189,31 +199,38 @@
 
                         <ImageView
                             android:id="@+id/imageView10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/https___pictures_betaseries_com_fonds_seasons_22058_60b6a9a4034ac"
+                            tools:srcCompat="@drawable/https___pictures_betaseries_com_fonds_seasons_22058_60b6a9a4034ac" />
 
                         <ImageView
                             android:id="@+id/imageView9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/elite"
+                            tools:srcCompat="@drawable/elite" />
 
                         <ImageView
                             android:id="@+id/imageView7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/dark__s_rie_"
+                            tools:srcCompat="@drawable/dark__s_rie_" />
 
                         <ImageView
                             android:id="@+id/imageView8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="90dp"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            app:srcCompat="@drawable/daredevil"
+                            tools:srcCompat="@drawable/daredevil" />
                     </LinearLayout>
                 </HorizontalScrollView>
 
@@ -237,31 +254,39 @@
 
                         <ImageView
                             android:id="@+id/imageView3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/crow"
+                            tools:srcCompat="@drawable/crow" />
 
                         <ImageView
                             android:id="@+id/imageView4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/papel"
+                            tools:srcCompat="@drawable/papel" />
 
                         <ImageView
                             android:id="@+id/imageView5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/portada"
+                            tools:srcCompat="@drawable/portada" />
 
                         <ImageView
                             android:id="@+id/imageView6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/la_revolucion_poster_series_netflix"
+                            tools:srcCompat="@drawable/la_revolucion_poster_series_netflix" />
                     </LinearLayout>
                 </HorizontalScrollView>
 
@@ -269,7 +294,7 @@
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Peliculas Romanticas"
+                    android:text="  Peliculas Romanticas"
                     android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -284,31 +309,39 @@
 
                         <ImageView
                             android:id="@+id/imageView15"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/romantica1"
+                            tools:srcCompat="@drawable/romantica1" />
 
                         <ImageView
                             android:id="@+id/imageView16"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/romantica2"
+                            tools:srcCompat="@drawable/romantica2" />
 
                         <ImageView
                             android:id="@+id/imageView17"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/romantica3"
+                            tools:srcCompat="@drawable/romantica3" />
 
                         <ImageView
                             android:id="@+id/imageView18"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="112dp"
+                            android:layout_height="125dp"
                             android:layout_weight="1"
-                            tools:srcCompat="@tools:sample/avatars" />
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/romantica4"
+                            tools:srcCompat="@drawable/romantica4" />
                     </LinearLayout>
                 </HorizontalScrollView>
 

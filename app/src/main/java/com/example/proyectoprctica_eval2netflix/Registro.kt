@@ -13,8 +13,8 @@ class Registro : AppCompatActivity() {
 
 
 
-        binding.button.setOnClickListener {
-          usuarios.add(Persona (binding.editTextTextPersonName2.text.toString(),binding.editTextTextPassword2.text.toString()))
+        binding.button4.setOnClickListener {
+          usuarios.add(Persona (binding.editTextTextEmailAddress.text.toString(),binding.editTextTextPassword2.text.toString()))
             intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
